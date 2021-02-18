@@ -46,9 +46,9 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer><small>
-            <p>
-            © {new Date().getFullYear()} - {` `} <GatsbyLink href="https://www.vpsuresh.com">vpsuresh </GatsbyLink> </small>
-                </p>
+           
+            © {new Date().getFullYear()} - {` `}   <GatsbyLink href="https://www.vpsuresh.com">vpsuresh </GatsbyLink> </small>
+               
           </Footer>
         </Content>
       </>
