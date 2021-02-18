@@ -49,8 +49,9 @@ const Layout = ({ children }) => (
             <p>
             © {new Date().getFullYear()},
             {` `}
-            </p>
+          
             <GatsbyLink href="https://www.vpsuresh.com">vpsuresh</GatsbyLink></small>
+                </p>
           </Footer>
         </Content>
       </>
