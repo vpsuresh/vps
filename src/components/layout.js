@@ -45,12 +45,12 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-          <Footer>
+          <Footer><small>
             <p>
-            © {new Date().getFullYear()}, Built with
+            © {new Date().getFullYear()},
             {` `}
             </p>
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
+            <GatsbyLink href="https://www.vpsuresh.com">vpsuresh</GatsbyLink></small>
           </Footer>
         </Content>
       </>
